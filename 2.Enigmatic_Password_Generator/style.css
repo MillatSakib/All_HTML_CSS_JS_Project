@@ -1,0 +1,75 @@
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+button[type="submit"],button[type="button"]{
+    background-color: #574b90;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: background-color .1s ease-in-out;
+}
+button[type="submit"]:hover,button[type="button"]:hover{
+    background-color: #6e60b6;
+    cursor: pointer;
+}
+button[type="submit"]:active,button[type="button"]:active{
+    background-color: #473d75;
+    cursor: pointer
+}
+
+h1{
+    color: #2d3436;
+    text-align: center;
+}
+#system_body{
+
+    border: 2px solid rgb(202, 202, 202);
+    padding: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    transition: box-shadow .3s ease-in-out;
+}
+#system_body:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4);
+}
+input{
+    margin: 1px;
+    border: 1px solid #c0c0c0;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.odd_div{
+    color: #d63031;
+    
+}
+.even_div{
+    color: #0984e3;
+    
+}
+
+#input{
+margin-top: 10px;
+}
+#input_pass_len{
+    color:#00b894;
+}
+#error{
+    display: none;
+    color: red;
+    margin-top: 10px;
+    font-size: .8rem;
+}
+
+#check{
+    display: none;
+}

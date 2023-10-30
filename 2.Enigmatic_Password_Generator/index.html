@@ -5,10 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enigmatic Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
+    <div id="system_body">
+        <h1>Password Generator</h1>
+        <div>
+            <input type="text" id="password_out" readonly>
+            <button type="submit" id="submit">Generate</button>
+        </div>
+        <div><button type="button" id="copy">Copy  <i class="fa-solid fa-copy" id="copyb"></i><i class="fa-solid fa-check" id="check"></i></button>
+            <button type="button" id="clear">Clear <i class="fa-solid fa-eraser"></i></button>
+        </div>
+        <div id="input_pass_len">Length <input type="number" value="8" min="4" max="18" id="pass_len"></div>
+        <div id="input">
+            <div class="odd_div"><input type="checkbox" id="lowercase" checked><label for="lowercase">Include Lowercase.</label>
+            </div>
 
+            <div class="even_div"><input type="checkbox" id="uppercase"><label for="uppercase">Include
+                    Uppercase.</label> </div>
+
+            <div class="odd_div"><input type="checkbox" id="number"><label for="number">Include Numbers.</label> </div>
+
+            <div class="even_div"><input type="checkbox" id="symbol"><label for="symbol">Include Symbols.</label> </div>
+        </div>
+        <div id="error">***Password length must be Greater than 3 and less than 19</div>
+        </div>
+        <script src="script.js"></script>
 </body>
 
 </html>

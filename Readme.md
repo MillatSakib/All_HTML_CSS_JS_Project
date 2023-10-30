@@ -2,7 +2,7 @@
 
 Here you can see all of my project when I learn HTML CSS & JAVASCRIPT. You can visit all my noob project from the link bellow.
 
-## 1.FD Calculator
+## 1. FD Calculator
 
 From this platform you can calculate Fixed Deposit amount from Bank. For use my FD Calculator open the link bellow.
 
