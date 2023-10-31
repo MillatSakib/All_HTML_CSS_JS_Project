@@ -37,10 +37,24 @@ You can visit my project from the link bellow:
 From this platform you can check your Password strength level. The interface is easy and simple to look. Tha's all about this project.
 
 #### Feature:
-    This is a simple project and you can check your password strength from this platfrom.
+This is a simple project and you can check your password strength from this platfrom.
 
 #### Technology:
-    I use  HTML, CSS and Vnila Javascript. No advance technology are use in this project.
+I use  HTML, CSS and Vnila Javascript. No advance technology are use in this project.
 
 You can visit my project from the link bellow:
+
 [https://millatsakib.github.io/All_HTML_CSS_JS_Project/3.Passwo...](https://millatsakib.github.io/All_HTML_CSS_JS_Project/3.Passwor_strength_checker/ "Password Strength Checker")
+
+## 4.Vowel Checker
+From this platform you can Check how much vowels in the text. It is begiener friendly simple project. That's why when I learn vanila Javavscript I develop this project.
+
+#### Feature:
+This is a simple project and you can check vowels in the text from this platfrom.
+
+#### Technology:
+I use  HTML, CSS and Vnila Javascript.
+
+You can visit my project from the link bellow:
+
+[https://millatsakib.github.io/All_HTML_CSS_JS_Project/4.Vowel...](https://millatsakib.github.io/All_HTML_CSS_JS_Project/4.Vowel_checker/ "Vowel Checker")

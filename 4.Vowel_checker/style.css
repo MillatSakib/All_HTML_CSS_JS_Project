@@ -1,0 +1,62 @@
+#button_op button{
+    display: inline-block;
+    margin: 0 auto;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color .1s ease-in-out;
+}
+
+#button_op button:hover{
+    background-color: rgb(253, 153, 30);
+    cursor: pointer;
+}
+#button_op button:active{
+    background-color: rgb(189, 104, 0);
+    cursor: pointer;
+}
+.vowel_chk{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    width: 60%;
+}
+.body{
+    width: inherit;
+    padding: 20px 50px;
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.2);
+    transition: box-shadow .2s ease-in-out;
+}
+
+.body:hover{
+    box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.4);
+}
+#text_inp{
+    height: 45vh;
+    width: 90%;
+    resize: none;
+    border: 2px solid rgb(255, 162, 48);
+    border-radius: 5px;
+    transition: border .15s ease-in-out;
+    padding: 10px 15px;
+}
+#text_inp:focus {
+  border: 2px solid rgb(199, 109, 0); /* Change border color on focus */
+  
+  outline: none; /* Remove the default blue outline (optional) */
+}
+
+#result{
+    color: red;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 3px;
+}
