@@ -1,0 +1,52 @@
+#inp_pass {
+  position: relative;
+  display: inline-block;
+  
+}
+#password_inp {
+  padding: 10px 50px;
+}
+
+#eye {
+  position: absolute;
+  right: 10px;
+  transform: translateY(-140%);
+  cursor: pointer;
+}
+
+#hide {
+  display: none;
+  transition: all 1s;
+  color: rgb(109, 109, 109);
+}
+#show {
+  color: rgb(70, 70, 70);
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0dfdf;
+}
+
+.main_div{
+    border: 1px solid rgb(104, 104, 104);
+    background-color: rgb(255, 255, 255);
+    padding: 80px 55px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+    transition: box-shadow .3s ease-in-out;
+}
+
+.main_div:hover{
+box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+}
+
+#result{
+  color: red;
+  margin-top: 5px;
+  font-size: .9rem;
+  text-align: center;
+  font-weight: bold;
+}

@@ -30,3 +30,17 @@ You can visit my project from the link bellow:
 
 
 [https://millatsakib.github.io/All_HTML_CSS_JS_Project/2.Enigmatic_Password...](https://millatsakib.github.io/All_HTML_CSS_JS_Project/2.Enigmatic_Password_Generator/ "Password Generator")
+
+
+## 3. Password Strength Checker
+
+From this platform you can check your Password strength level. The interface is easy and simple to look. Tha's all about this project.
+
+#### Feature:
+    This is a simple project and you can check your password strength from this platfrom.
+
+#### Technology:
+    I use  HTML, CSS and Vnila Javascript. No advance technology are use in this project.
+
+You can visit my project from the link bellow:
+[https://millatsakib.github.io/All_HTML_CSS_JS_Project/3.Passwo...](https://millatsakib.github.io/All_HTML_CSS_JS_Project/3.Passwor_strength_checker/ "Password Strength Checker")
