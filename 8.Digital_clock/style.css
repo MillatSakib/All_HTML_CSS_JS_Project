@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+h2{
+    display: block;
+    font-size: 3.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.design{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+    padding: 20px 70px;
+    background-color: #2C3A47;
+    color: white;
+    transition: box-shadow .3s ease-in-out;
+}
+.design:hover{
+    box-shadow: 0px 0px 30px rgba(0,0,0,.6);
+}
+.time{
+    font-size: 3rem;
+    margin-top: 30px;
+    height: 90%;
+    
+}
+
+#ampm{
+    font-size: 1rem;
+    margin-left: 10px;
+}
