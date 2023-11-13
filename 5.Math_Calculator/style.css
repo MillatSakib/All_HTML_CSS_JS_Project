@@ -1,0 +1,100 @@
+:root {
+  --base_width_calculator: calc(300px*1);
+  --base_width_result: calc(260px*1);
+}
+h2{
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  color: rgb(0, 180, 45);
+}
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  display: flex;
+  height: auto;
+  width: var(--base_width_calculator);
+  background-color: rgb(53, 53, 53);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.result {
+  outline: none;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  font-size: 3rem;
+  text-align: right;
+  width: var(--base_width_result);
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
+
+.buttons {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.button_design {
+  height: 50px;
+  width: 55px;
+  background-color: rgba(104, 224, 5, 0.7);
+  color: rgb(255, 227, 227);
+  font-size: 20px;
+  margin: 5px 8px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: box-shadow 0.1s ease-in-out,background-color 0.1s ease-in-out;
+
+}
+
+.button_design:hover {
+    cursor: pointer;
+  background-color: rgba(131, 255, 30, 0.7);
+  box-shadow: 0px 0px 15px rgba(0, 226, 30, 0.5);
+}
+
+.button_design:active {
+    cursor: pointer;
+  background-color: rgba(81, 177, 4, 0.7);
+  
+}
+.button_design2 {
+  height: 50px;
+  width: 125px;
+  background-color: rgb(238, 255, 0);
+  color: rgb(17, 17, 17);
+  font-size: 35px;
+  margin: 5px 8px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+.button_design2:hover {
+    cursor: pointer;
+  background-color: rgb(238, 255, 0);
+  box-shadow: 0px 0px 15px rgba(206, 255, 27, 0.5);
+}
+.button_design2:active {
+    cursor: pointer;
+  background-color: rgb(169, 180, 4);
+  
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+  /* --base_width: calc(300px*2); */
+}
+}

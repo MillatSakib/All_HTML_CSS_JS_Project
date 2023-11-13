@@ -58,3 +58,20 @@ I use  HTML, CSS and Vnila Javascript.
 You can visit my project from the link bellow:
 
 [https://millatsakib.github.io/All_HTML_CSS_JS_Project/4.Vowel...](https://millatsakib.github.io/All_HTML_CSS_JS_Project/4.Vowel_checker/ "Vowel Checker")
+
+
+## 8. Digital Clock
+
+From this platform you can show real time of you system. This is a beginer friendly project. That's why when I learn about vanila Javascript I developed this project. 
+
+#### Features
+
+This is a simple digital clock. You can show the time by this platform.. No advance freature has there.
+
+#### Technology
+
+Here I just use HTML,CSS & Vanila JS . 
+
+If you want to visit the project then click the link bellow: 
+
+[https://millatsakib.github.io/All_HTML_CSS_JS_Project/8.Digita...](https://millatsakib.github.io/All_HTML_CSS_JS_Project/8.Digital_clock "Digital Clock")
