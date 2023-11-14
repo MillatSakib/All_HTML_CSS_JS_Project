@@ -1,5 +1,36 @@
 let result = document.getElementById('result');
-function clear(){
+
+function validate_string() {
+    let lastChar = (result.value.length) - 1;
+    result.value = result.value.replace(/^0+(?=\d)/, '');
+    if (result.value[0] === '/' || result.value[0] === '*') {  //this check that the first value are any symbol or not
+        result.value = "Syntax Error!!!";
+
+        let audio = new Audio('danger_sms.wav');
+        audio.loop = false;
+        audio.play();
+        setTimeout(() => {
+            result.value = "";
+        }, 2000);
+
+       
+
+    } else if (result.value[lastChar] === '/' || result.value[lastChar] === '*' || result.value[lastChar] === '-' || result.value[lastChar] === '+') {
+        result.value = "Syntax Error!!!";
+
+        let audio = new Audio('danger_sms.wav');
+        audio.loop = false;
+        audio.play();
+        setTimeout(() => {
+            result.value = "";
+        }, 2000);
+    }
+
+}
+
+
+
+function clear() {
     result.value = "";
 }
 function back() {
@@ -8,14 +39,14 @@ function back() {
 
 function pointdec() {
     let lastChar = result.value[result.value.length - 1];
-    if (lastChar === '.' || lastChar === '/' || lastChar === '-' || lastChar === '+' || lastChar === '*'){
+    if (lastChar === '.') {
         result.value = result.value.slice(0, -1) + ".";
-        
+
     }
-    else{
+    else {
         result.value += ".";
     }
-    
+
 }
 
 function div() {
@@ -26,11 +57,11 @@ function div() {
     else {
         result.value += "/";
     }
-    
+
 }
 
-function seven(){
-    result.value+="7";
+function seven() {
+    result.value += "7";
 }
 function eight() {
     result.value += "8";
@@ -47,7 +78,7 @@ function mul() {
     else {
         result.value += "*";
     }
-    
+
 }
 function four() {
     result.value += "4";
@@ -67,7 +98,7 @@ function minus() {
     else {
         result.value += "-";
     }
-    
+
 }
 function one() {
     result.value += "1";
@@ -87,7 +118,7 @@ function plus() {
     else {
         result.value += "+";
     }
-    
+
 }
 function double_zero() {
     result.value += "00";
@@ -95,15 +126,19 @@ function double_zero() {
 function zero() {
     result.value += "0";
 }
-
 function equal() {
-    result.value = eval('0'+result.value)  ;
+    validate_string();
+
+    var evalResult = String(eval(result.value));
+    if (evalResult === "undefined") {
+        result.value = '0';
+    }
+
+    else {
+        result.value = eval(result.value);
+    }
+
 }
-
-
-
-
-
 
 document.getElementById('ac').addEventListener('click', clear);
 document.getElementById('de').addEventListener('click', back);
@@ -123,4 +158,4 @@ document.getElementById('three').addEventListener('click', three);
 document.getElementById('plus').addEventListener('click', plus);
 document.getElementById('double_zero').addEventListener('click', double_zero);
 document.getElementById('zero').addEventListener('click', zero);
-document.getElementById('equeal').addEventListener('click', equal);
+document.getElementById('equal').addEventListener('click', equal);
